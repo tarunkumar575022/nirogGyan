@@ -7,7 +7,7 @@ const Home = () => {
     const [doctors, setDoctors] = useState([])   
     const [search, setSearch] =useState([]);
     useEffect(() => {
-        fetch('http://localhost:3000/doctors')
+        fetch('https://niroggyan-backend-egi8.onrender.com/doctors')
         .then(response => response.json())
         .then(data => setDoctors(data))
         .catch(error => console.error('Error fetching doctors:', error));
