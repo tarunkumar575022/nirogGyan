@@ -8,7 +8,7 @@ const Doctorprofile = () => {
     const [doctor, setDoctor] = useState("");
     const [submitted, setSubmitted] = useState(false);
     useEffect(() => {
-        fetch('http://localhost:3000/doctors/')
+        fetch('https://niroggyan-backend-egi8.onrender.com/doctors/')
         .then(response => response.json())
         .then(data => {const found = data.find(doc => doc.id === Number(id));
             setDoctor(found);
@@ -18,7 +18,7 @@ const Doctorprofile = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response= await fetch('http://localhost:3000/appointments', {
+            const response= await fetch('https://niroggyan-backend-egi8.onrender.com/appointments', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
