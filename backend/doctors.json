@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": " Dr. Satish Kumar",
+        "specialization": "Cardiologist",
+        "availability": true,
+        "experience": "10 years",
+        "description": "Dr. Satish Kumar is a renowned cardiologist with over 10 years of experience in treating heart-related conditions. He is known for his patient-centric approach and advanced treatment methods."
+    },
+    {
+        "id": 2,
+        "name": " Dr. Tarun Kumar",
+        "specialization": "Cardiologist",
+        "availability": true,
+        "experience": "10 years",
+        "description": "Dr. Tarun Kumar is a skilled cardiologist with a decade of experience in diagnosing and treating heart diseases. He is committed to providing personalized care to his patients."   
+    },
+    {
+        "id": 3,
+        "name": " Dr. Umesh Kumar",
+        "specialization": "sexologist",
+        "availability": false,
+        "experience": "10 years",
+        "description": "Dr. Umesh Kumar is a dedicated sexologist with a wealth of experience in addressing sexual health issues. He takes a compassionate approach to patient care."
+    }
+]
